@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nacarecords *.css
+recursive-include nacarecords *.csv
+recursive-include nacarecords *.html
+recursive-include nacarecords *.ico
+recursive-include nacarecords *.js
+recursive-include nacarecords *.json
+recursive-include nacarecords *.md
+recursive-include nacarecords *.png
+recursive-include nacarecords *.py
+recursive-include nacarecords *.svg
+recursive-include nacarecords *.txt
+recursive-exclude nacarecords *.pyc
